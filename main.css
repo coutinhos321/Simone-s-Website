@@ -1,0 +1,144 @@
+#logo-large {
+    display: none;
+    color: #240090;
+    font-size: 1.5em;
+    font-family: monospace;
+}
+#logo-small {
+    color: White;
+    font-family: monospace;
+    font-size: 3.5em;
+    text-decoration: none;
+}
+
+body{
+    background: black;
+    font-family: monospace;
+}
+
+#nav-container {
+    background-color: Black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5em;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#nav-container ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+#nav-container li{
+    float: left;
+}
+#nav-container li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+#nav-container li a:hover{
+    background-color: rgb(52, 51, 51)
+}
+
+#aboutme{
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 3em 2em;
+    font-size: 1.25em;
+}
+#aboutme h2{
+    background-color:#282828;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding:1.5em;
+    text-align: center;
+    position: sticky;
+}
+#aboutme p{
+    line-height: 1.5em;
+}
+
+#education{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 2em;
+    font-size: 1.25em;
+}
+#education h2{
+    background-color:#282828;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding:1.5em;
+    text-align: center;
+    position: sticky;
+}
+#education img{
+    float:right;
+    padding-right:1.5em;
+}
+
+#hobbies{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 2em;
+    font-size: 1.25em;
+}
+#hobbies h2{
+    background-color:#282828;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding:1.5em;
+    text-align: center;
+    position: sticky;
+}
+#hobbies h3{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding:1em 1em;
+    text-align: center;
+}
+
+#contact{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 2em;
+    font-size: 1.25em;
+}
+#contact h2{
+    background-color:#282828;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding:1.5em;
+    text-align: center;
+    position: sticky;
+}
+#contact button{
+    color: white;
+    background-color: black;
+}
+
+#footer{
+    text-align: center;
+    padding: 2em;
+}
+#footer a{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}

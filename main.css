@@ -12,11 +12,32 @@
 }
 
 #name{
-    color:white;
-    display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    display: flex;
+}
+#name p {
+    border-right: solid 3px white;
+    white-space: nowrap;
+    overflow: hidden;    
+    font-family: 'Source Code Pro', monospace;  
     font-size: 5em;
+    color: white;
+  }
+/* Animation */
+#name p {
+    animation: animated-text 3s steps(27,end) 1s 1 normal both,
+    animated-cursor 750ms steps(27,end) infinite;
+  }
+/* text animation */
+@keyframes animated-text{
+    from{width: 0;}
+    to{width: 700px;}
+}
+/* cursor animations */
+@keyframes animated-cursor{
+    from{border-right-color: white;}
+    to{border-right-color: transparent;}
 }
 
 body{

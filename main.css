@@ -5,10 +5,8 @@
     font-family: monospace;
 }
 #logo-small {
-    color: White;
-    font-family: monospace;
-    font-size: 3.5em;
-    text-decoration: none;
+    max-height: 75%;
+    max-width: 75%;
 }
 
 #name{
@@ -141,6 +139,41 @@ body{
     text-align: center;
 }
 
+#experience{
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 3em 2em;
+    font-size: 1.25em;
+}
+
+/* EXPERIENCE SECTION - CAN ADD IF NEEDED */
+/* #experience h2{
+    background-color:#282828;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5em;
+    text-align: center;
+    position: sticky;
+}
+
+#experience h3{
+    color:white;
+    text-align: left;
+    padding-top:1.75em;
+    padding-bottom: 0em;
+}
+
+.right{
+    float:right;
+    padding: 0em;
+}
+.left{
+    float:left;
+    padding: 0em;
+} */
+
 #contact{
     color:white;
     display: flex;
@@ -170,4 +203,11 @@ body{
     text-align: center;
     color: white;
     text-decoration: none;
+}
+
+#contact img{
+    float: right;
+    width: 35px;
+    height: 35px;
+    padding: 1em;
 }

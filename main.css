@@ -9,6 +9,12 @@
     max-width: 75%;
 }
 
+#picture{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #name{
     justify-content: center;
     align-items: center;
@@ -21,12 +27,12 @@
     font-family: 'Source Code Pro', monospace;  
     font-size: 5em;
     color: white;
-  }
+}
 /* Animation */
-#name p {
-    animation: animated-text 3s steps(27,end) 1s 1 normal both,
-    animated-cursor 750ms steps(27,end) infinite;
-  }
+#name p{
+    animation: animated-text 3s steps(25,end) 1s 1 normal both,
+    animated-cursor 750ms steps(25,end) infinite;
+}
 /* text animation */
 @keyframes animated-text{
     from{width: 0;}
@@ -71,11 +77,6 @@ body{
 }
 #nav-container li a:hover{
     background-color: rgb(52, 51, 51)
-}
-
-#personal-pic img{
-    float: right;
-    padding: 1.5em;
 }
 
 #aboutme{

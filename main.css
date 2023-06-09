@@ -5,14 +5,8 @@
     font-family: monospace;
 }
 #logo-small {
-    max-height: 75%;
-    max-width: 75%;
-}
-
-#picture{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    max-height: 40%;
+    max-width: 40%;
 }
 
 #name{
@@ -36,7 +30,7 @@
 /* text animation */
 @keyframes animated-text{
     from{width: 0;}
-    to{width: 700px;}
+    to{width: 54%;}
 }
 /* cursor animations */
 @keyframes animated-cursor{
@@ -48,6 +42,7 @@ body{
     background: black;
     font-family: monospace;
 }
+
 
 #nav-container {
     background-color: Black;
@@ -154,7 +149,7 @@ body{
 }
 
 /* EXPERIENCE SECTION - CAN ADD IF NEEDED */
-/* #experience h2{
+#experience h2{
     background-color:#282828;
     color:white;
     display: flex;
@@ -170,6 +165,9 @@ body{
     padding-top:1.75em;
     padding-bottom: 0em;
 }
+#experience a{
+    color: white;
+}
 
 .right{
     float:right;
@@ -178,7 +176,7 @@ body{
 .left{
     float:left;
     padding: 0em;
-} */
+}
 
 #contact{
     color:white;
@@ -195,10 +193,6 @@ body{
     padding:1.5em;
     text-align: center;
     position: sticky;
-}
-#contact button{
-    color: white;
-    background-color: black;
 }
 
 #footer{
